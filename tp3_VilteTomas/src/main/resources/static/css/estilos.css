@@ -10,12 +10,16 @@ body{
 #encabezado {
 	color:  #000000;
 	padding: 20px;
+	margin: 20px;
 	text-align: center;
+	font-size: 200%;
 }
 
 .menu{
-	text-align: right;
+	text-align: left;
+	margin: 10px;
 	padding: 10px;
+	font-size: 150%;
 }
 
 .enlace {
@@ -23,3 +27,144 @@ body{
 	color:  #ffffff;
 }
 
+.principal{
+	margin: 30px;
+	font-size: 150%;
+	font-weight: 150%;
+}
+
+.seccion{
+	margin: 20px;
+}
+
+.titulo{
+	font-family: cursive;
+	border: double;
+	background-color: #ffffff;
+	width: 470px;
+}
+
+.parrafo{
+	font-family: monospace;
+}
+
+.listaOrdenada{
+	display: block;
+	border: solid #ffffff;
+	width: 400px;
+}
+
+.listaNormal{
+	display: block;
+	border: solid #ffffff;
+	width: 400px;
+}
+
+.tabla{
+	border: solid #ffffff;
+}
+
+.adicional{
+	font-size: 150%;
+}
+
+.descarga{
+	color: #ffffff;
+}
+
+.imagen{
+	display: block;
+	padding: 10px;
+}
+
+#pie{
+	font-size: 150%;
+	
+}
+
+.informacion{
+	color: #ffffff;
+	padding: 20px;
+}
+
+.estructura{
+	background-color: #666666;
+	text-align: center; 
+	
+}
+
+#titular{
+	font-family: times new romas;
+	text-align: center;
+	font-size: 190%;
+	padding: 7px;
+	margin: 7px;
+	border: solid; 
+	height: 130px;
+	background-color: #80ff80;
+}
+
+.documento{
+	padding: 4px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+	border: sold white;
+
+}
+
+.Nombre{
+	padding: 4px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+	border: sold white;
+}
+
+.Apellido{
+	padding: 4px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+	border: sold white;
+}
+
+.fecha{
+	padding: 4px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+	border: sold white;
+}
+
+.Correo{
+	padding: 4px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+	border: sold white;
+}
+
+.Domicilio{
+	padding: 4px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+	border: sold white;
+}
+
+.Provincia{
+	padding: 4px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+	border: sold white;
+}
+input{
+	padding: 3px;
+	margin: 1px;
+	background-color:  #dc143c;
+	border: sold #ffffff;
+	border-radius: 7px;
+	width: 150px;
+}

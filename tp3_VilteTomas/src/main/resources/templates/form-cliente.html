@@ -3,25 +3,25 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Formulario de Cliente</title>
-		
+		<link rel="stylesheet" href="../static/css/estilos.css">
 	</head>
 	
-	<body>
-		<header>
+	<body class="estructura">
+		<header id="titular">
 			<h1>Registro de Cliente</h1>
 		</header>
 		
 		<form action="#" method="post">
-			<label for="dni">DNI:</label>
+			<label class="documento" for="dni">DNI:</label>
 			<input type="number" id="dni" name="dni" required="required"><br>
 			
-			<label for="nombres">Nombres:</label>
+			<label class="Nombre" for="nombres">Nombres:</label>
 			<input type="text" id="nombres" name="nombres" required><br>
 			
-			<label for="apellido">Apellido:</label>
+			<label class="Apellido" for="apellido">Apellido:</label>
 			<input type="text" id="apellido" name="apellido" required><br>
 			
-			<label for="fechaNacimiento">Fecha de Nacimiento:</label>
+			<label class="fecha" for="fechaNacimiento">Fecha de Nacimiento:</label>
 			<input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
 			
 			<label for="genero">Genero</label><br>
@@ -29,18 +29,18 @@
 			<input type="radio" id="respuesta" name="respuesta" value="Femenino">Femenino<br>
 			<input type="radio" id="respuesta" name="respuesta" value="Otro">Otro<br>
 			
-			<label for="correo">Correo Electronico:</label>
+			<label class="Correo" for="correo">Correo Electronico:</label>
 			<input type="email" id="correo" name="correo" required><br>
 			
-			<label for="domicilio">Domicilio:</label>
+			<label class="Domicilio" for="domicilio">Domicilio:</label>
 			<input type="text" id="domicilio" name="domicilio" required><br>
 			
-			<label for="provincia">Provincia:</label>
+			<label class="Provincia" for="provincia">Provincia:</label>
 			<select id="provincia" name="provinica" required>
 				<option value="JUJUY">Jujuy</option>
 				<option value="SALTA">Salta</option>
 				<option value="TUCUMAN">Tucuman</option>
-			</select>
+			</select><br>
 			
 			<label for="celualr">Numero de Celular:</label>
 			<input type="number" id="celular" name="celular"><br>
