@@ -87,6 +87,8 @@ body{
 	padding: 20px;
 }
 
+/* Comienzo del tp3 parte2*/
+
 .estructura{
 	background-color: #666666;
 	text-align: center; 
@@ -109,7 +111,6 @@ body{
 	margin: 5px;
 	background-color:  #80bfff;
 	border-radius: 7px;
-	border: sold white;
 
 }
 
@@ -118,7 +119,6 @@ body{
 	margin: 5px;
 	background-color:  #80bfff;
 	border-radius: 7px;
-	border: sold white;
 }
 
 .Apellido{
@@ -126,7 +126,6 @@ body{
 	margin: 5px;
 	background-color:  #80bfff;
 	border-radius: 7px;
-	border: sold white;
 }
 
 .fecha{
@@ -134,7 +133,28 @@ body{
 	margin: 5px;
 	background-color:  #80bfff;
 	border-radius: 7px;
-	border: sold white;
+}
+
+.genero{
+	display: block;
+	font-family: tahoma;
+	font-size: 190%;
+	padding: 3px;
+	margin: 5px;
+	border: solid; 
+	height: 50px;
+	background-color: #80ff80;
+
+}
+
+#respuesta{
+	display: inline-block;
+	border: 1px solid;
+	padding: 10px;
+	margin: 10px;
+	width:  20px;
+	height: 20px;
+	border-radius: 100px;
 }
 
 .Correo{
@@ -142,29 +162,133 @@ body{
 	margin: 5px;
 	background-color:  #80bfff;
 	border-radius: 7px;
-	border: sold white;
 }
 
 .Domicilio{
-	padding: 4px;
+	padding: 3px;
 	margin: 5px;
 	background-color:  #80bfff;
 	border-radius: 7px;
-	border: sold white;
 }
 
 .Provincia{
-	padding: 4px;
+	padding: 2px;
 	margin: 5px;
 	background-color:  #80bfff;
 	border-radius: 7px;
-	border: sold white;
 }
-input{
+
+.celular{
+	padding: 2px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+}
+
+#provincia{
 	padding: 3px;
 	margin: 1px;
 	background-color:  #dc143c;
 	border: sold #ffffff;
+	border-radius: 7px;
+	width: 150px;
+}
+
+.categoria{
+	display: block;
+	font-family: tahoma;
+	font-size: 190%;
+	padding: 3px;
+	margin: 5px;
+	border: solid; 
+	height: 50px;
+	background-color: #80ff80;
+}
+#deporte{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: solid;
+	padding: 20px;
+	margin: 20px;	
+}
+
+#origami{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: solid;
+	padding: 20px;
+	margin: 20px;	
+}
+
+#lectura{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: solid;
+	padding: 20px;
+	margin: 20px;
+}
+
+#juegos{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: solid;
+	padding: 20px;
+	margin: 20px;
+}
+.Empresa{
+	font-family: tahoma;
+	font-size: 170%;
+	padding: 4px;
+	margin: 4px;
+	border: solid; 
+	height: 30px;
+	background-color: #80ff80;
+}
+
+#sugerenciaEmpresa{
+	padding: 10px;
+	margin: 10px;
+	width: 350px;
+	height: 150px;
+	background-color: #80bfff;
+}
+
+.clave{
+	padding: 2px;
+	margin: 4px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+}
+
+.condiciones{
+	padding: 2px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+}
+
+#boton{
+	display: inline;
+	padding: 2px;
+	margin: 5px;
+	background-color:  #dc143c;
+	border-radius: 7px;
+}
+
+#aceptarCondiciones{
+	display: inline;
+	width: 20px;
+	height: 20px;
+}
+
+input{
+	padding: 3px;
+	margin: 1px;
+	background-color:  #dc143c;
 	border-radius: 7px;
 	width: 150px;
 }

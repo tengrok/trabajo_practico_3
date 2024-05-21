@@ -24,10 +24,10 @@
 			<label class="fecha" for="fechaNacimiento">Fecha de Nacimiento:</label>
 			<input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
 			
-			<label for="genero">Genero</label><br>
+			<label class="genero" for="genero">Genero</label><br>
 			<input type="radio" id="respuesta" name="respuesta" value="Masculino">Masculino<br>
 			<input type="radio" id="respuesta" name="respuesta" value="Femenino">Femenino<br>
-			<input type="radio" id="respuesta" name="respuesta" value="Otro">Otro<br>
+			<input type="radio" id="respuesta" name="respuesta" value="Otro">Otros<br>
 			
 			<label class="Correo" for="correo">Correo Electronico:</label>
 			<input type="email" id="correo" name="correo" required><br>
@@ -42,28 +42,28 @@
 				<option value="TUCUMAN">Tucuman</option>
 			</select><br>
 			
-			<label for="celualr">Numero de Celular:</label>
+			<label class="celular" for="celualr">Numero de Celular:</label>
 			<input type="number" id="celular" name="celular"><br>
 			
-			<label for="selecionarCategoria">Selecionar Categorias de Interes</label><br>
-			<input type="checkbox" id="deporte" name="deporte" value="Deporte" required>Deporte<br>
-			<input type="checkbox" id="origami" name="orimagi" value="Origami" required>Origami<br>
-			<input type="checkbox" id="lectura" name="lectura" value="Lectura" required>Lectura<br>
-			<input type="checkbox" id="juegos" name="juegos" value="Juegos" required>Juegos de PC/Celular<br>
+			<label class="categoria" for="selecionarCategoria">Selecionar Categorias de Interes</label><br>
+				<input  type="checkbox" id="deporte" name="deporte" value="Deporte" required>Deporte<br>
+				<input  type="checkbox" id="origami" name="orimagi" value="Origami" required>Origami<br>
+				<input  type="checkbox" id="lectura" name="lectura" value="Lectura" required>Lectura<br>
+				<input  type="checkbox" id="juegos" name="juegos" value="Juegos" required>Juegos<br>
 			
-			<label for="sugerenciaEmpresa">Sugerencias para la Empresa</label><br>
+			<label class="Empresa" for="sugerenciaEmpresa">Sugerencias para la Empresa</label><br>
 			<textarea id="sugerenciaEmpresa" name="sugerenciaEmpresa" rows="10" cols="10"></textarea><br>
 			
-			<label for="password">Password:</label>
+			<label class="clave" for="password">Password:</label>
 			<input type="password" id="password" name="password" required><br>
 			
-			<label for="aceptarCondiciones">Acepto los terminos y condiciones</label>
+			<label class="condiciones" for="aceptarCondiciones">Acepto los terminos y condiciones</label>
 			<input type="checkbox" id="aceptarCondiciones" name="aceptarCondiciones" required><br>
 			
-			<label for="informacionEmpresa">Acepto recibir informacion relativa de la empresa</label>
+			<label class="condiciones" for="informacionEmpresa">Acepto recibir informacion relativa de la empresa</label>
 			<input type="checkbox" id="aceptarCondiciones" name="aceptarCondiciones" required><br>
 			
-			<button type="submit">Enviar</button>
+			<button id="boton" type="submit">Enviar</button>
 		</form>
 		<footer>
 			Programacion Visual &copy; Copyright 2024
