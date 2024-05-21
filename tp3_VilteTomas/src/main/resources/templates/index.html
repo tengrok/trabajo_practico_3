@@ -3,32 +3,34 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Pagina ejemplo</title>
+		<link rel="stylesheet" href="../static/css/estilos.css">
 	</head>
 	
 	<body>
-		<header>
+		<header id="encabezado">
 			<h1>Bienvenido a Programacion Visual</h1>
 		</header>
 		
-		<nav>
+		<nav class="menu">
 			<ul>
-				<li><a href="#descripcion" >Descripcion</a></li>
-				<li><a href="#Clases" >Calendario Escolar</a></li>
-				<li><a href="#Temas">Plan de Estudio</a></li>
+				<li><a class="enlace" href="#descripcion" >Descripcion</a></li>
+				<li><a class="enlace" href="#Clases" >Calendario Escolar</a></li>
+				<li><a class="enlace" href="#Temas">Plan de Estudio</a></li>
 			</ul>
 		</nav>
 		
-		<main>
-			<section id="descripcion">
-				<h2>Programacion</h2>
-				<p>El término programación se define como un conjunto de instrucciones consecutivas y ordenadas que llevan 
+		<main class="principal">
+			<section id="descripcion" class="seccion">
+				<h2 class="titulo">Programacion</h2>
+				<p class="parrafo">El término programación se define como un conjunto de instrucciones consecutivas y ordenadas que llevan 
 				a ejecutar una tarea específica. Dichas instrucciones se denominan “código fuente”, el cual es único para cada 
 				lenguaje y está diseñado para cumplir una función o propósito específico.</p>
 				
-				<h2>Lenguaje de Programacion</h2>
-				<p>Un lenguaje de programación es una “estructura que, con una cierta base sintáctica y semántica,
+				<h2 class="titulo">Lenguaje de Programacion</h2>
+				<p class="parrafo">Un lenguaje de programación es una “estructura que, con una cierta base sintáctica y semántica,
 				imparte distintas instrucciones a un programa de computadora”. Un lenguaje de programación está compuesto por:</p>
-				<ol>
+				<ol class="listaOrdenada">
+
 					<li>Simbolos</li>
 					<li>Reglas Sintactica y Semanticas</li>
 					<li>Estructurada</li>
@@ -36,13 +38,13 @@
 					<li>Elementos y expreciones</li>
 				</ol>
 				
-				<h2>Ojetivo de la materia</h2>
-				<p>Introducir a los estudiantes en el manejo del lenguaje de programación Java: Creación de clases, atributos, métodos y estructuras de control selectivas.
+				<h2 class="titulo">Ojetivo de la materia</h2>
+				<p class="parrafo">Introducir a los estudiantes en el manejo del lenguaje de programación Java: Creación de clases, atributos, métodos y estructuras de control selectivas.
 				La programación visual es un tipo de lenguaje de programación que permite a sus usuarios ilustrar sus procesos, o dicho de otra forma, se trata de un lenguaje de 
 				programación visual que permite a los desarrolladores explicar el proceso con palabras comprensibles para los usuarios</p>
 				
-				<h3>Docentes</h3>
-				<ol>
+				<h3 class="titulo">Docentes</h3>
+				<ol class="listaOrdenada">
 					<li>Vega Ariel</li>
 					<li>Apaza Carolina</li>
 					<li>Sosa Gustavo</li>
@@ -50,11 +52,12 @@
 				</ol>
 			</section>
 			
-			<section id="Clases">
-				<h2>Clase de Teoria</h2>
-				<p>Miercoles de 14 a 15 hs modaliad Virtual</p>
-				<h3>Comiciones</h3>
-				<table>
+
+			<section id="Clases" class="seccion">
+				<h2 class="titulo">Clase de Teoria</h2>
+				<p class="parrafo">Miercoles de 14 a 15 hs modaliad Virtual</p>
+				<h3 class="titulo">Comiciones</h3>
+				<table class="tabla">
 					<tr>
 						<th>Horarios</th>
 					</tr>
@@ -72,12 +75,11 @@
 					</tr>
 				</table>
 			</section>
-			
-			<section id="Temas">
-				<h2>Herrmientas</h2>
-				<p>Los alumnos deberan instalar herramientas para el desarrollo de trabajos practicos, Java JDK 17 - Spring Tool Suite</p>
-				<h3>Unidades de Estudio</h3>
-				<ol>
+			<section id="Temas" class="seccion">
+				<h2 class="titulo">Herrmientas</h2>
+				<p class="parrafo">Los alumnos deberan instalar herramientas para el desarrollo de trabajos practicos, Java JDK 17 - Spring Tool Suite</p>
+				<h3 class="titulo">Unidades de Estudio</h3>
+				<ul class="listaNormal">
 					<li>Unidad 1: Lenguaje Java</li>
 					<li>Unidad 2: Introduccion a Spring Boot</li>
 					<li>Unidad 3: Gestion de Dependencias y Versionamiento</li>
@@ -85,22 +87,24 @@
 					<li>Unidad 5: Clases de Negocio</li>
 					<li>Unidad 6: Persistencia de Objetos</li>
 					<li>Unidad 7: Manejo de Formulas</li>
-				</ol>
+				</ul>
 			</section>
 			
 		</main>
 		
-		<aside>
+		<aside class="adicional">
 			<h3>Spring Tools</h3>
-			<p>Enlace de interes: </p>
-			<a href="https://www.youtube.com/watch?v=89Mr-dYcHxA&t=56s">Descargar Springtoos</a>
-			<img alt="imagen" src="../static/images/descarga.jfif">
+			<p>
+				Enlace de interes: 
+				<a class="descarga" href="https://www.youtube.com/watch?v=89Mr-dYcHxA&t=56s">Descargar Springtoos</a>
+			</p>
+			<img class="imagen" alt="imagen" src="../static/images/descarga.jfif">
 		</aside>
 		
-		<footer>
-			<p>Contacto info@fi.unju.edu.ar</p>
-			<a href="https://www.facebook.com/fiunju/" >Facebook</a>
-			<a href="https://www.instagram.com/fiunju/" >Instagram</a>
+		<footer id="pie">
+			<p>Contacto: info@fi.unju.edu.ar</p>
+			<a class="informacion" href="https://www.facebook.com/fiunju/" >Facebook</a><br>
+			<a class="informacion" href="https://www.instagram.com/fiunju/" >Instagram</a><br>
 		</footer>
 	</body>
 </html>

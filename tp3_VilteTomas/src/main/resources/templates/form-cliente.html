@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario de Cliente</title>
+		<link rel="stylesheet" href="../static/css/estilos.css">
+	</head>
+	
+	<body class="estructura">
+		<header id="titular">
+			<h1>Registro de Cliente</h1>
+		</header>
+		
+		<form action="#" method="post">
+			<label class="documento" for="dni">DNI:</label>
+			<input type="number" id="dni" name="dni" required="required"><br>
+			
+			<label class="Nombre" for="nombres">Nombres:</label>
+			<input type="text" id="nombres" name="nombres" required><br>
+			
+			<label class="Apellido" for="apellido">Apellido:</label>
+			<input type="text" id="apellido" name="apellido" required><br>
+			
+			<label class="fecha" for="fechaNacimiento">Fecha de Nacimiento:</label>
+			<input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+			
+			<label class="genero" for="genero">Genero</label><br>
+			<input type="radio" id="respuesta" name="respuesta" value="Masculino">Masculino<br>
+			<input type="radio" id="respuesta" name="respuesta" value="Femenino">Femenino<br>
+			<input type="radio" id="respuesta" name="respuesta" value="Otro">Otros<br>
+			
+			<label class="Correo" for="correo">Correo Electronico:</label>
+			<input type="email" id="correo" name="correo" required><br>
+			
+			<label class="Domicilio" for="domicilio">Domicilio:</label>
+			<input type="text" id="domicilio" name="domicilio" required><br>
+			
+			<label class="Provincia" for="provincia">Provincia:</label>
+			<select id="provincia" name="provinica" required>
+				<option value="JUJUY">Jujuy</option>
+				<option value="SALTA">Salta</option>
+				<option value="TUCUMAN">Tucuman</option>
+			</select><br>
+			
+			<label class="celular" for="celualr">Numero de Celular:</label>
+			<input type="number" id="celular" name="celular"><br>
+			
+			<label class="categoria" for="selecionarCategoria">Selecionar Categorias de Interes</label><br>
+				<input  type="checkbox" id="deporte" name="deporte" value="Deporte" required>Deporte<br>
+				<input  type="checkbox" id="origami" name="orimagi" value="Origami" required>Origami<br>
+				<input  type="checkbox" id="lectura" name="lectura" value="Lectura" required>Lectura<br>
+				<input  type="checkbox" id="juegos" name="juegos" value="Juegos" required>Juegos<br>
+			
+			<label class="Empresa" for="sugerenciaEmpresa">Sugerencias para la Empresa</label><br>
+			<textarea id="sugerenciaEmpresa" name="sugerenciaEmpresa" rows="10" cols="10"></textarea><br>
+			
+			<label class="clave" for="password">Password:</label>
+			<input type="password" id="password" name="password" required><br>
+			
+			<label class="condiciones" for="aceptarCondiciones">Acepto los terminos y condiciones</label>
+			<input type="checkbox" id="aceptarCondiciones" name="aceptarCondiciones" required><br>
+			
+			<label class="condiciones" for="informacionEmpresa">Acepto recibir informacion relativa de la empresa</label>
+			<input type="checkbox" id="aceptarCondiciones" name="aceptarCondiciones" required><br>
+			
+			<button id="boton" type="submit">Enviar</button>
+		</form>
+		<footer>
+			Programacion Visual &copy; Copyright 2024
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,294 @@
+@charset "UTF-8";
+
+body{
+	background-color: #00ffff;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#encabezado {
+	color:  #000000;
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+	font-size: 200%;
+}
+
+.menu{
+	text-align: left;
+	margin: 10px;
+	padding: 10px;
+	font-size: 150%;
+}
+
+.enlace {
+	text-align: left;
+	color:  #ffffff;
+}
+
+.principal{
+	margin: 30px;
+	font-size: 150%;
+	font-weight: 150%;
+}
+
+.seccion{
+	margin: 20px;
+}
+
+.titulo{
+	font-family: cursive;
+	border: double;
+	background-color: #ffffff;
+	width: 470px;
+}
+
+.parrafo{
+	font-family: monospace;
+}
+
+.listaOrdenada{
+	display: block;
+	border: solid #ffffff;
+	width: 400px;
+}
+
+.listaNormal{
+	display: block;
+	border: solid #ffffff;
+	width: 400px;
+}
+
+.tabla{
+	border: solid #ffffff;
+}
+
+.adicional{
+	font-size: 150%;
+}
+
+.descarga{
+	color: #ffffff;
+}
+
+.imagen{
+	display: block;
+	padding: 10px;
+}
+
+#pie{
+	font-size: 150%;
+	
+}
+
+.informacion{
+	color: #ffffff;
+	padding: 20px;
+}
+
+/* Comienzo del tp3 parte2*/
+
+.estructura{
+	background-color: #666666;
+	text-align: center; 
+	
+}
+
+#titular{
+	font-family: times new romas;
+	text-align: center;
+	font-size: 190%;
+	padding: 7px;
+	margin: 7px;
+	border: solid; 
+	height: 130px;
+	background-color: #80ff80;
+}
+
+.documento{
+	padding: 4px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+
+}
+
+.Nombre{
+	padding: 4px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+}
+
+.Apellido{
+	padding: 4px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+}
+
+.fecha{
+	padding: 4px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+}
+
+.genero{
+	display: block;
+	font-family: tahoma;
+	font-size: 190%;
+	padding: 3px;
+	margin: 5px;
+	border: solid; 
+	height: 50px;
+	background-color: #80ff80;
+
+}
+
+#respuesta{
+	display: inline-block;
+	border: 1px solid;
+	padding: 10px;
+	margin: 10px;
+	width:  20px;
+	height: 20px;
+	border-radius: 100px;
+}
+
+.Correo{
+	padding: 4px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+}
+
+.Domicilio{
+	padding: 3px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+}
+
+.Provincia{
+	padding: 2px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+}
+
+.celular{
+	padding: 2px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+}
+
+#provincia{
+	padding: 3px;
+	margin: 1px;
+	background-color:  #dc143c;
+	border: sold #ffffff;
+	border-radius: 7px;
+	width: 150px;
+}
+
+.categoria{
+	display: block;
+	font-family: tahoma;
+	font-size: 190%;
+	padding: 3px;
+	margin: 5px;
+	border: solid; 
+	height: 50px;
+	background-color: #80ff80;
+}
+#deporte{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: solid;
+	padding: 20px;
+	margin: 20px;	
+}
+
+#origami{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: solid;
+	padding: 20px;
+	margin: 20px;	
+}
+
+#lectura{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: solid;
+	padding: 20px;
+	margin: 20px;
+}
+
+#juegos{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: solid;
+	padding: 20px;
+	margin: 20px;
+}
+.Empresa{
+	font-family: tahoma;
+	font-size: 170%;
+	padding: 4px;
+	margin: 4px;
+	border: solid; 
+	height: 30px;
+	background-color: #80ff80;
+}
+
+#sugerenciaEmpresa{
+	padding: 10px;
+	margin: 10px;
+	width: 350px;
+	height: 150px;
+	background-color: #80bfff;
+}
+
+.clave{
+	padding: 2px;
+	margin: 4px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+}
+
+.condiciones{
+	padding: 2px;
+	margin: 5px;
+	background-color:  #80bfff;
+	border-radius: 7px;
+}
+
+#boton{
+	display: inline;
+	padding: 2px;
+	margin: 5px;
+	background-color:  #dc143c;
+	border-radius: 7px;
+}
+
+#aceptarCondiciones{
+	display: inline;
+	width: 20px;
+	height: 20px;
+}
+
+input{
+	padding: 3px;
+	margin: 1px;
+	background-color:  #dc143c;
+	border-radius: 7px;
+	width: 150px;
+}
